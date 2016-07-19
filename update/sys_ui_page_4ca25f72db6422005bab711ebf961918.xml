@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[//window.onload = loadThis();
+
+function loadThis(){
+// 	alert("hi");
+	var id = "sys_original.IO:86d2db72db6422005bab711ebf96196b";
+	alert(g_form);
+// 	alert(g_form.getValue("variables.can_page_read"));
+	//alert($(id).value);
+// 	alert(document.getElementById(id));
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_13959_dfs_dyn_cat_ui_pg.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+Print This
+
+</j:jelly>]]></html>
+        <name>dyn_cat_ui_pg</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-15 10:46:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4ca25f72db6422005bab711ebf961918</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>dyn_cat_ui_pg</sys_name>
+        <sys_package display_value="DFS" source="x_13959_dfs">c8f1077adb2422005bab711ebf961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS">c8f1077adb2422005bab711ebf961978</sys_scope>
+        <sys_update_name>sys_ui_page_4ca25f72db6422005bab711ebf961918</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-15 12:09:36</sys_updated_on>
+    </sys_ui_page>
+</record_update>

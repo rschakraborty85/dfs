@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="All Purpose Testing" max_length="40" name="x_13959_dfs_all_purpose_testing" type="collection">
+        <element attributes="edge_encryption_enabled=true" hint="Hint Message" label="String" max_length="40" name="string" type="string"/>
+    </element>
+</database>
