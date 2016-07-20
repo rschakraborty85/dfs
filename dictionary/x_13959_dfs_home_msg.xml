@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="home_msg" max_length="40" name="x_13959_dfs_home_msg" type="collection">
+        <element label="Display" max_length="40" name="display" type="string"/>
+        <element label="More" max_length="1000" name="more" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="notification" sequence="0" value="notification"/>
+                <element label="self service" sequence="1" value="self service"/>
+                <element label="article" sequence="2" value="article"/>
+            </choice>
+        </element>
+    </element>
+</database>

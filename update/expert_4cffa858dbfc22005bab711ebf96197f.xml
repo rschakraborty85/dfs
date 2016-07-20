@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="expert">
+    <expert action="INSERT_OR_UPDATE">
+        <banner_type>generated</banner_type>
+        <basic_panel_flow>false</basic_panel_flow>
+        <first_panel display_value="">39efa098dbfc22005bab711ebf961957</first_panel>
+        <name/>
+        <redirect/>
+        <roles/>
+        <sys_class_name>expert</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-19 14:46:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4cffa858dbfc22005bab711ebf96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DFS" source="x_13959_dfs">c8f1077adb2422005bab711ebf961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS">c8f1077adb2422005bab711ebf961978</sys_scope>
+        <sys_update_name>expert_4cffa858dbfc22005bab711ebf96197f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-19 14:46:33</sys_updated_on>
+    </expert>
+</record_update>

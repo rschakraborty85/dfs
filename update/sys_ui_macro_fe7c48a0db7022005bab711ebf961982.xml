@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>dfs_msg_macro</name>
+        <scoped_name>x_13959_dfs_dfs_msg_macro</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-20 06:50:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fe7c48a0db7022005bab711ebf961982</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>dfs_msg_macro</sys_name>
+        <sys_package display_value="DFS" source="x_13959_dfs">c8f1077adb2422005bab711ebf961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS">c8f1077adb2422005bab711ebf961978</sys_scope>
+        <sys_update_name>sys_ui_macro_fe7c48a0db7022005bab711ebf961982</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-20 06:53:32</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<!--g:form_info_header text="Form Info Header"/-->
+<g2:evaluate>
+	var gr = new GlideRecord("x_13959_dfs_home_msg");
+	gr.query();
+	</g2:evaluate>
+	
+		 <h3>Notifications and News</h3>
+	 <g:scrollable_area height="100px">
+		 <table>
+		 <j2:while test="$[gr.next()]">
+			<tr><td>
+			 $[gr.display]<a href="#">... More info$[SP]:$[SP]$[gr.more]</a>
+				<br/>
+			 </td></tr>
+		 </j2:while>
+			 </table>
+		 </g:scrollable_area>
+		
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

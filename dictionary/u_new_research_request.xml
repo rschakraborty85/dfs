@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="New Research Request" max_length="40" name="u_new_research_request" type="collection">
+        <element label="Research task" max_length="32" name="x_13959_dfs_research_task" reference="u_research_task" type="reference"/>
+        <index name="index">
+            <element name="x_13959_dfs_research_task"/>
+        </index>
+    </element>
+</database>
